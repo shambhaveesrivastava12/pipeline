@@ -10,18 +10,8 @@ pipeline{
                 
                 
                     
-                    git branch: 'main', url: 'https://github.com/shambhaveesrivastava12/pipeline.git'
+                    git branch: 'main', url: 'https://github.com/vikash-kumar01/demo-counter-app.git'
                 
-            }
-        }
-        stage('UNIT testing'){
-            
-            steps{
-                
-                script{
-                    
-                    sh 'mvn test'
-                }
             }
         }
     }
